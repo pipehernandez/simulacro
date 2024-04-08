@@ -1,0 +1,288 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    color: grey;
+}
+
+h3{
+    color: #72c6fd;
+}
+.fondo{
+    width: 99%;
+    height: 25%;
+    position: absolute;
+}
+
+nav{
+    width: 97%;
+    position: absolute;
+    display: inline-flex;  
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    padding: 1%;
+}
+
+.logo{
+    position: absolute;
+    display: inline-flex;
+    color: white;
+    font-family: chewy;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+
+.nombre{
+    margin: auto;
+}
+
+.mountain{
+    width: 70px;
+    height: 70px;
+}
+
+.redes{
+    position: absolute;
+    margin-left: 60%;
+}
+
+.red{
+    width: 10%;
+}
+
+.lupa{
+    width: 2%;
+    margin-left: 80%;
+}
+
+.menu{
+    width: 2%;
+    margin-left: 10%;
+}
+
+.imagenes{
+    width: 80%;
+    margin: 10%;
+    display: inline-flex;
+    margin-top: 15%;
+
+}
+
+.izquierdo{
+    width: 40%;
+    margin-right: 5px;
+    position: relative;
+}
+
+.derecho{
+    display: grid;
+    width: 60%;
+    grid-template-areas: 
+    "antioquia amazonas"
+    "arauca arauca";
+}
+
+
+.magda{
+    position: relative;
+}
+
+.santa{
+    position: relative;
+}
+
+.antio{
+    position: relative;
+    margin-right: 5px;
+}
+
+.amazo{
+    position: relative;
+}
+
+.arau{
+    position: relative;
+}
+
+.pie{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 98.8%;
+    position: absolute;
+    z-index: 1;
+    padding: 10px 0px;
+    padding-left: 5px;
+    margin-top: -47px;
+    color: white;
+}
+
+.piearauca{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 197.9%;
+    position: absolute;
+    z-index: 1;
+    padding: 10px 0px;
+    padding-left: 5px;
+    margin-top: -47px;
+    color: white;
+}
+
+
+.magdalena{
+    width: 100%;
+    height: 290px;
+}
+
+.santander{
+    width: 100%;
+    height: 290px;
+}
+
+.antioquia{
+    width: 100%;
+    height: 260px;
+    grid-area: antioquia;
+}
+
+.amazonas{
+    width: 100%;
+    height: 260px;
+    grid-area: amazonas;
+}
+
+.arauca{
+    width: 199%;
+    height: 320px;
+    grid-area: arauca;
+}
+
+.infoviajes{
+    width: 50%;
+}
+
+.imagen{
+    margin-top: 25%;
+    width: 250px;
+    height: 170px;
+}
+
+.info{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+footer{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viaje1{
+    display: flex;
+    border-bottom: 1px solid #79FF39;
+    height: 30vh;
+    
+}
+
+.viaje2{
+    display: flex;
+    border-bottom: 1px solid #79FF39;
+    height: 30vh;
+}
+
+.viaje3{
+    display: flex;
+    border-bottom: 1px solid #79FF39;
+    height: 30vh;
+}
+
+.viaje4{
+    display: flex;
+    border-bottom: 1px solid #79FF39;
+    height: 30vh;
+}
+
+.viaje5{
+    display: flex;
+    border-bottom: 1px solid #79FF39;
+    height: 30vh;
+}
+
+a{
+    text-decoration: none;
+    color: #72c6fd;
+}
+
+main{
+    height: 150vh;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin: auto;
+    width: 80%;
+}
+
+aside{
+    width: 30%;
+    margin-left: 15%;
+}
+
+.sobremi{
+    width: 100%;
+}
+
+.titulo{
+    font-size: 25px;
+    width: 20%;
+}
+
+.comentarios{
+    display: flex;
+    width: 100%;
+}
+
+.imagenaside{
+    width: 190px;
+    padding: 10px;
+}
+
+.final{
+    margin-top: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.contenidoo{
+    margin-right: 10%;
+    color: white;
+}
+
+.imagenesm{
+    text-align: center;
+}
+
+.redessociales{
+    filter: grayscale(100%);
+    height: 20px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+button{
+    margin: 0;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    padding: 6px;
+    border: none;
+}
+
+input{
+    margin-right: -8px;
+    padding-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
